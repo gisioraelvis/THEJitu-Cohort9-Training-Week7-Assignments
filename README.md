@@ -1,4 +1,4 @@
-# Week7Assignments
+# THEJitu Cohort 9 Training Week 7 Assignments
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.5.
 
