@@ -24,11 +24,9 @@ export class SignupReactiveFormComponent {
           ),
         ],
       ],
-      confirmPassword: [this.user.confirmPassword, Validators.required],
+      confirmPassword: [this.user.confirmPassword, [Validators.required]],
     },
-    {
-      validator: this.confirmPasswordValidator('password', 'confirmPassword'),
-    }
+    { validator: this.confirmPasswordValidator('password', 'confirmPassword') }
   );
 
   confirmPasswordValidator(password: string, confirmPassword: string) {
